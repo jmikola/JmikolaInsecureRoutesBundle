@@ -8,6 +8,9 @@ use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 
 class ComposeRoutingLoaderPass implements CompilerPassInterface
 {
+    /**
+     * @see Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface::process()
+     */
     public function process(ContainerBuilder $container)
     {
         /* Copy the alias or definition of the original event dispatcher that
