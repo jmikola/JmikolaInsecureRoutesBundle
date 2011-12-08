@@ -3,7 +3,7 @@
 namespace Jmikola\InsecureRoutesBundle\Routing;
 
 use Symfony\Component\Config\Loader\LoaderInterface;
-use Symfony\Component\Config\Loader\LoaderResolver;
+use Symfony\Component\Config\Loader\LoaderResolverInterface;
 
 class HttpsRemovalLoader implements LoaderInterface
 {
@@ -59,7 +59,7 @@ class HttpsRemovalLoader implements LoaderInterface
     /**
      * @see Symfony\Component\Config\Loader\LoaderInterface::setResolver()
      */
-    public function setResolver(LoaderResolver $resolver)
+    public function setResolver(LoaderResolverInterface $resolver)
     {
         $this->loader->setResolver($resolver);
     }
