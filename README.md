@@ -14,8 +14,6 @@ branch. Use the **2.0** branch of this bundle if your project uses 2.0.x.
 
 ## Installation
 
-### Application Kernel
-
 Add JmikolaInsecureRoutesBundle to the `registerBundles()` method of your
 application kernel. Like WebProfilerBundle, this bundle should only be enabled
 for your `dev` and `test` environments:
