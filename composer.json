@@ -13,7 +13,7 @@
         "symfony/symfony": ">=2.1.0-dev"
     },
     "autoload": {
-        "psr-0": { "Jmikola\\JsAssetsHelperBundle": "" }
+        "psr-0": { "Jmikola\\InsecureRoutesBundle": "" }
     },
-    "target-dir": "Jmikola/JsAssetsHelperBundle"
+    "target-dir": "Jmikola/InsecureRoutesBundle"
 }
