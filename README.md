@@ -1,5 +1,7 @@
 # JmikolaInsecureRoutesBundle
 
+[![Build Status](https://travis-ci.org/jmikola/JmikolaInsecureRoutesBundle.png?branch=sf-2.0)](https://travis-ci.org/jmikola/JmikolaInsecureRoutesBundle)
+
 This bundle removes HTTPS schema requirements from all routes in your Symfony2
 application, and is especially helpful if your `dev` or `test` environments are
 not configured with SSL and you would like to avoid maintaining a separate copy
