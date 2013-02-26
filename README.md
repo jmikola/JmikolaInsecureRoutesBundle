@@ -9,8 +9,12 @@ You probabably should not use this bundle in your `prod` environment.
 
 ## Compatibility
 
-This bundle's master branch maintains compatibility with Symfony2's master
-branch. Use the **2.0** branch of this bundle if your project uses 2.0.x.
+This bundle's `master` branch maintains compatibility with Symfony2's master
+branch. The `sf-2.0` branch of this bundle maintains compatibility with
+Symfony 2.0. You may use the following tags for this bundle:
+
+ * 3.0.x tracks the `master` branch.
+ * 2.0.x tracks the `sf-2.0` branch.
 
 ## Installation
 
